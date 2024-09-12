@@ -35,7 +35,5 @@ const executeCodes = () => {
    });
  });
 };
-
 window.addEventListener('load', executeCodes);
-
 // //Cookies JS End
