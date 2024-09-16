@@ -662,6 +662,13 @@ background-repeat: no-repeat;
       /* Disclaimer Section CSS End */
   
 /* Footer CSS Start */
+.footer {
+background-image: url("../images/footer-bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0% 0%;
+
+}
 .logo-bottom img {
     width: 100%;
     max-width: 300px;
@@ -712,7 +719,6 @@ width:50%
 .links a:hover {
 color: #fa009f;
 }
-
 /* Footer CSS End */
 
 /* Social Icons CSS Start */
