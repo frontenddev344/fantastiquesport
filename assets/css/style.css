@@ -123,7 +123,8 @@ inset 0px 0px 12px 7px #9a13d2 shdow
     transition: all 0.3s ease-in-out;
     background-image: url("../images/newsletter-bg.png");
 }
-.site-header.fixed-header{
+
+.site-header.fixed-header {
     background-color: #1f0644;
 }
 
@@ -197,7 +198,7 @@ inset 0px 0px 12px 7px #9a13d2 shdow
 h2.section-heading {
     font-size: 40px;
     line-height: 1.5;
-color: #fa009f;
+    color: #fa009f;
 }
 
 /* Section Heading CSS End */
@@ -261,7 +262,7 @@ color: #fa009f;
 
 
 /* Home Page Intro Text CSS Start */
-.pages-intro-text-section{
+.pages-intro-text-section {
     background-image: url("../images/newsletter-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +286,7 @@ color: #fa009f;
 /* Home Page Intro Text CSS End */
 
 /* Home Page Category Cards CSS Start */
-.home-page-category-cards-section{
+.home-page-category-cards-section {
     background-image: url("../images/category-cards-bg.jpg");
 }
 
@@ -316,7 +317,7 @@ color: #fa009f;
     width: 100%;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    object-position:0% 0%;
+    object-position: 0% 0%;
 }
 
 .home-page-category-cards-image img {
@@ -361,7 +362,7 @@ color: #fa009f;
 
 /* How We Compare CSS Start */
 
-.how-we-compare-section{
+.how-we-compare-section {
     background-image: url("../images/how-we-compare-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -378,22 +379,22 @@ color: #fa009f;
 
 .how-we-compare-cards {
     padding: 20px;
-    background:#330662;
-    box-shadow:inset 0px 0px 10px #00a2ff;
-     transition: all .5s ease-in;
+    background: #330662;
+    box-shadow: inset 0px 0px 10px #00a2ff;
+    transition: all .5s ease-in;
     border-radius: 10px;
     overflow: hidden;
     min-height: 320px;
     width: 32%;
     border-radius: 10px;
-    display: block;  
+    display: block;
     transition: all .3s ease-out;
 }
 
 .how-we-compare-cards:hover {
     background-position: 0 0;
     background-position: left bottom;
-    box-shadow:inset 0px 0px 10px 7px #fea036;
+    box-shadow: inset 0px 0px 10px 7px #fea036;
     color: #fff;
 
 }
@@ -428,11 +429,11 @@ color: #fa009f;
 
 /* Home Page newsletter CSS Start */
 .pages-newsletter-section {
-background-color: #330662;
-background-position: center;
-background-image: url("../images/newsletter-bg.png");
-background-repeat: no-repeat;
-background-size: cover;
+    background-color: #330662;
+    background-position: center;
+    background-image: url("../images/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pages-newsletter-wrapper {
@@ -463,7 +464,8 @@ input.pages-newsletter-input {
     border-radius: 25px 0 0 25px;
     font-weight: 600;
 }
-.butn{
+
+.butn {
     display: inline-block;
     padding: 13px 25px;
     font-size: 16px;
@@ -477,12 +479,12 @@ input.pages-newsletter-input {
 
 .pages-newsletter-submit-button {
     margin-left: 5px;
-    border-radius: 0 25px 25px 0;  
-    box-shadow:  inset 0px 0px 10px 3px #fea036 ;
+    border-radius: 0 25px 25px 0;
+    box-shadow: inset 0px 0px 10px 3px #fea036;
 }
 
 .pages-newsletter-submit-button:hover {
-    box-shadow:  inset 0px 0px 10px 3px #00a2ff;
+    box-shadow: inset 0px 0px 10px 3px #00a2ff;
 }
 
 .pages-newsletter-wrapper h3 {
@@ -493,16 +495,60 @@ input.pages-newsletter-input {
     font-weight: 700;
     color: #fff;
 }
+
 /* Home Page newsletter CSS End */
 
+/* Home Page Blog Cards CSS Start */
+.pages-blog-cards-section {
+    background-image: url("../images/blog-cards-section-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pages-blog-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog-cards {
+    width: 32%;
+    position: relative;
+    height: 450px;
+    transition: 0.3s all ease-out;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-cards:hover{
+transform: translateY(-5px);
+box-shadow: 0px 0px 10px 6px #00a2ff;
+}
+
+.blog-cards-image {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blog-cards-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+.blog-cards-text {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #fa009f;
+    color: #fff;
+}
 
 
 
-
-
-
-
-
+/* Home Page Blog Cards CSS Start */
 
 
 
