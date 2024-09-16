@@ -69,14 +69,19 @@ document.querySelectorAll('.accordion-header').forEach(button => {
       if (content.style.height === '0px' || !content.style.height) {
           content.style.height = content.scrollHeight + 'px'; 
           content.style.opacity = '1';
-          icon.textContent = '−';
-                          content.addEventListener('transitionend', () => {
+          icon.textContent = '−'; 
+          
+
+          content.addEventListener('transitionend', function setHeightAuto() {
               content.style.height = 'auto';
-          }, { once: true });
+              content.removeEventListener('transitionend', setHeightAuto);
+          });
       } else {
-            content.style.height = content.scrollHeight + 'px';
-          content.offsetHeight;low      
-     
+
+          content.style.height = content.scrollHeight + 'px';
+
+          content.offsetHeight; 
+          
           content.style.height = '0';
           content.style.opacity = '0';
           icon.textContent = '+';
