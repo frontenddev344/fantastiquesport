@@ -11,6 +11,20 @@ document.addEventListener("DOMContentLoaded", function () {
 // Toggle Menu Functionaliy End
 
 
+// Header Scroll JS Start
+document.addEventListener("DOMContentLoaded", function() {
+  window.addEventListener("scroll", function() {
+    var header = document.querySelector("header");
+    if (window.scrollY > 0) {
+      header.classList.add("fixed-header");
+    } else {
+      header.classList.remove("fixed-header");
+    }
+  });
+});
+// Header Scroll JS End
+
+
  //Cookies JS Start
  const cookiesBox = document.querySelector('.wrapper'),
  buttons = document.querySelectorAll('.button');
