@@ -1,17 +1,15 @@
 // Toggle Menu Functionaliy Start
-$(document).ready(function () {
-    $(".menu-icon").click(function () {
-        $("body").addClass("menuToggle");
-    });
-    $(".close-icon").click(function () {
-        $("body").removeClass("menuToggle");
-    });
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector(".menu-icon").addEventListener("click", function () {
+      document.body.classList.add("menuToggle");
+  });
+
+  document.querySelector(".close-icon").addEventListener("click", function () {
+      document.body.classList.remove("menuToggle");
+  });
 });
 // Toggle Menu Functionaliy End
 
-// Animation On Scroll JS Start
-AOS.init();
-// Animation On Scroll JS Start
 
  //Cookies JS Start
  const cookiesBox = document.querySelector('.wrapper'),
