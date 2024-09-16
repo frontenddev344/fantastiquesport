@@ -642,6 +642,7 @@ a.butn.blog-btn img {
 
 .accordion {
     width: 100%;
+    max-width: 600px;
 }
 
 .accordion-item {
@@ -660,7 +661,7 @@ a.butn.blog-btn img {
     justify-content: space-between;
     align-items: center;
     outline: none;
-    transition: background-color 0.4s ease;
+    transition: background-color 0.3s ease;
 }
 
 .accordion-header:hover {
@@ -680,17 +681,15 @@ a.butn.blog-btn img {
 }
 
 .accordion-header.active + .accordion-content {
-    height: auto; /* Let content size grow naturally */
     opacity: 1;
 }
 
 .icon {
     font-size: 18px;
     font-weight: bold;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .accordion-header.active .icon {
     transform: rotate(180deg); /* Rotate for minus sign */
 }
-
