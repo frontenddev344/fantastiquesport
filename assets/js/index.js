@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", function() {
 // Header Scroll JS End
 
 
+// Accordion JS Start
+
+
+
+
+// Accordion JS Start
+
+
  //Cookies JS Start
  const cookiesBox = document.querySelector('.wrapper'),
  buttons = document.querySelectorAll('.button');
@@ -49,3 +57,24 @@ const executeCodes = () => {
 };
 window.addEventListener('load', executeCodes);
 // //Cookies JS End
+
+
+
+document.querySelectorAll('.accordion-header').forEach(button => {
+  button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('.icon');
+      
+      button.classList.toggle('active');
+      
+      if (content.style.height === '0px' || !content.style.height) {
+          content.style.height = content.scrollHeight + 'px'; // Set the height dynamically
+          content.style.opacity = '1';
+          icon.textContent = '−';
+      } else {
+          content.style.height = '0';
+          content.style.opacity = '0';
+          icon.textContent = '+';
+      }
+  });
+});
