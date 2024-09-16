@@ -81,6 +81,11 @@ img {
     padding-bottom: 50px;
 }
 
+.pb-4 {
+    padding-bottom: 40px;
+}
+
+
 .text-center {
     text-align: center;
 }
@@ -495,8 +500,8 @@ input.pages-newsletter-input {
     font-weight: 700;
     color: #fff;
 }
-
 /* Home Page newsletter CSS End */
+
 
 /* Home Page Blog Cards CSS Start */
 .pages-blog-cards-section {
@@ -575,11 +580,102 @@ a.butn.blog-btn img {
     margin-left: 10px;
     object-fit: cover;
 }
-
-
-
 /* Home Page Blog Cards CSS Start */
 
+/* Home Page Accordion CSS Start */
+.accordion {
+    width: 100%;
+
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.accordion-header {
+background-image: url("../images/accordion-items-bg.png");
+background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 15px 20px;
+    text-align: left;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.accordion-header:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.5s ease, opacity 0.5s ease;
+    padding: 0 15px;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.accordion-header.active + .accordion-content {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.accordion-header.active .icon {
+    transform: rotate(180deg);
+}
+/* Home Page Accordion CSS Start */
+
+/* Disclaimer Section CSS Start */
+.disclaimer{
+    background-image: url("../images/blog-cards-section-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: cover;
+    }
+
+
+  .disclaimer-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0px 25px;
+      border-radius: 10px;
+      overflow: hidden;
+
+  }
+  
+  .disclaimer-wrapper h3 {
+      font-size: 30px;
+      color: #fa009f;
+  }
+  
+  .disclaimer-wrapper p {
+      margin: 15px 0;
+      color:#fff;
+  }
+  
+
+    /* Disclaimer Section CSS End */
+  
 
 
 
@@ -640,58 +736,3 @@ a.butn.blog-btn img {
 
 /* Cookies CSS End */
 
-.accordion {
-    width: 100%;
-
-}
-
-.accordion-item {
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.accordion-header {
-    background-color: #f1f1f1;
-    cursor: pointer;
-    padding: 15px 20px;
-    text-align: left;
-    border: none;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    outline: none;
-    transition: background-color 0.3s ease;
-}
-
-.accordion-header:hover {
-    background-color: #ddd;
-}
-
-.accordion-content {
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: height 0.5s ease, opacity 0.5s ease;
-    padding: 0 15px;
-}
-
-.accordion-content p {
-    margin: 10px 0;
-}
-
-.accordion-header.active + .accordion-content {
-    opacity: 1;
-}
-
-.icon {
-    font-size: 18px;
-    font-weight: bold;
-    transition: transform 0.3s ease;
-}
-
-.accordion-header.active .icon {
-    transform: rotate(180deg); /* Rotate for minus sign */
-}
