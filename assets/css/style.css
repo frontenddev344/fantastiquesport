@@ -824,7 +824,7 @@ a.butn.blog-btn img {
     width: 100%;
 }
 
-.banner-image img {
+.pages-banner-image img {
     object-position: center;
 }
 .pages-banner-text h1 {
@@ -996,7 +996,7 @@ a.butn.blog-btn img {
     background-image: url("../images/blog-cards-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 .blog-pages-group h3 {
     font-size: 25px;
