@@ -993,6 +993,10 @@ a.butn.blog-btn img {
     color: #fff;
     border-radius: 10px;
     background-color: #330662;
+    background-image: url("../images/blog-cards-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 .blog-pages-group h3 {
     font-size: 25px;
