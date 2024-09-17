@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Global CSS Start */
 
 * {
@@ -25,8 +29,8 @@ h4,
 h5,
 h6 {
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
     margin: 0;
+    line-height: 1.5;
 }
 
 
@@ -34,7 +38,6 @@ p {
     line-height: 1.7;
     padding: 0;
     margin: 0;
-    font-weight: 500;
 }
 
 ul {
@@ -44,7 +47,7 @@ ul {
 }
 
 ul li {
-    line-height: 1.5;
+    line-height: 1.7;
     margin-bottom: 3px;
 }
 
@@ -93,6 +96,7 @@ img {
 .mb-4 {
     margin-bottom: 35px;
 }
+
 /* Global CSS End */
 
 
@@ -191,6 +195,7 @@ h2.section-heading {
     font-size: 40px;
     line-height: 1.5;
     color: #fa009f;
+    margin: 0 auto;
 }
 
 /* Section Heading CSS End */
@@ -426,6 +431,7 @@ h2.section-heading {
     background-image: url("../images/newsletter-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid #fa009f;
 }
 
 .pages-newsletter-wrapper {
@@ -487,6 +493,7 @@ input.pages-newsletter-input {
     font-weight: 700;
     color: #fff;
 }
+
 /* Home Page newsletter CSS End */
 
 
@@ -506,7 +513,7 @@ input.pages-newsletter-input {
 }
 
 .blog-cards {
-    width: 32%;
+    width: 31%;
     position: relative;
     height: 450px;
     transition: 0.3s all ease-out;
@@ -539,7 +546,7 @@ input.pages-newsletter-input {
     background-color: #330662;
     color: #fff;
     width: 100%;
-    
+
 }
 
 .blog-cards-text h4 {
@@ -547,26 +554,29 @@ input.pages-newsletter-input {
 }
 
 .blof-cards-btn {
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .blog-btn {
     box-shadow: inset 0px 0px 10px 1px #fea036;
     color: #fff;
     border-radius: 10px;
-    padding:13px 40px;  
-    display: inline-flex;  
+    padding: 13px 40px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .blog-btn:hover {
     box-shadow: inset 0px 0px 10px 1px #00a2ff;
 }
+
 a.butn.blog-btn img {
     width: 20px;
     height: 20px;
     margin-left: 10px;
     object-fit: cover;
 }
+
 /* Home Page Blog Cards CSS Start */
 
 /* Home Page Accordion CSS Start */
@@ -583,8 +593,8 @@ a.butn.blog-btn img {
 }
 
 .accordion-header {
-background-image: url("../images/accordion-items-bg.png");
-background-repeat: no-repeat;
+    background-image: url("../images/accordion-items-bg.png");
+    background-repeat: no-repeat;
     cursor: pointer;
     padding: 15px 20px;
     text-align: left;
@@ -617,83 +627,97 @@ background-repeat: no-repeat;
     color: #fff;
 }
 
-.accordion-header.active + .accordion-content {
+.accordion-header.active+.accordion-content {
     opacity: 1;
 }
 
 .icon {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 700;
     transition: transform 0.3s ease;
+    min-width: 20px;
 }
 
 .accordion-header.active .icon {
     transform: rotate(180deg);
 }
+
 /* Home Page Accordion CSS Start */
 
 /* Disclaimer Section CSS Start */
-.disclaimer{
+.disclaimer {
     background-image: url("../images/blog-cards-section-bg.png");
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: cover;
-    }
+}
 
 
-  .disclaimer-wrapper {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0px 25px;
-      border-radius: 10px;
-      overflow: hidden;
-
-  }
-  
-  .disclaimer-wrapper h3 {
-      font-size: 30px;
-      color: #fa009f;
-  }
-  
-  .disclaimer-wrapper p {
-      margin: 15px 0;
-      color:#fff;
-  }
-      /* Disclaimer Section CSS End */
-  
-/* Footer CSS Start */
-.footer {
-background-image: url("../images/footer-bg.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 0% 0%;
+.disclaimer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 25px;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
+
+.disclaimer-wrapper h3 {
+    font-size: 30px;
+    color: #fa009f;
+}
+
+.disclaimer-wrapper p {
+    margin: 15px 0;
+    color: #fff;
+}
+
+/* Disclaimer Section CSS End */
+
+/* Footer CSS Start */
+.footer {
+    background-image: url("../images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+
+}
+
 .logo-bottom img {
     width: 100%;
     max-width: 300px;
     vertical-align: middle;
 }
-.logo-bottom{
+
+.logo-bottom {
     margin-bottom: 30px;
 }
 
-.footer-wrapper a{
+.footer-wrapper a {
     color: #fff;
 }
+
 .links-social {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
-.links , .social {
-width:50%
+
+.links {
+    width: 75%
 }
+
+.social {
+    width: 25%;
+}
+
 .links a {
     margin: 0 15px;
     font-size: 18px;
     transition: 0.4s all ease-in-out;
-    padding-bottom:7px ;
+    padding-bottom: 7px;
 }
 
 .links a:after {
@@ -710,15 +734,20 @@ width:50%
 .links a:hover {
     transform: translateX(3px);
 }
+
 .links a:hover:after {
     width: 100%;
 }
 
+.footer-social-icons {
+    width: 100%;
+}
 
 
 .links a:hover {
-color: #fa009f;
+    color: #fa009f;
 }
+
 /* Footer CSS End */
 
 /* Social Icons CSS Start */
@@ -728,7 +757,7 @@ color: #fa009f;
     align-items: center;
     justify-content: center;
     margin: 10px auto;
-
+    width: 100%;
 }
 
 .social-icons i {
@@ -828,4 +857,3 @@ color: #fa009f;
 }
 
 /* Cookies CSS End */
-
