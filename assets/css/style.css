@@ -285,6 +285,7 @@ h2.section-heading {
 /* Home Page Category Cards CSS Start */
 .home-page-category-cards-section {
     background-image: url("../images/category-cards-bg.jpg");
+    overflow: hidden;
 }
 
 .home-page-category-cards-wrapper {
