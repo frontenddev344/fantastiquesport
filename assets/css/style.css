@@ -208,7 +208,7 @@ h2.section-heading {
 }
 
 .banner-image {
-    height: 650px;
+    height: 600px;
     width: 100%;
 }
 
@@ -800,6 +800,207 @@ a.butn.blog-btn img {
 }
 
 /* Social Icons CSS End */
+
+
+/* Pages CSS Start */
+.pages-banner-image {
+    height: 500px;
+    width: 100%;
+}
+
+.banner-image img {
+    object-position: center;
+}
+
+
+
+
+
+
+
+.pages-cards-outer-wrapper {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+}
+
+.pages-cards-outer-wrapper button {
+    margin: 15px auto;
+}
+
+.pages-cards {
+    position: relative;
+}
+
+.pages-cards-image {
+    height: 400px;
+    width: 100%;
+}
+
+.pages-cards-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pages-cards-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0 0 0/75%);
+    background-blend-mode: multiply;
+    inset: 0;
+}
+
+.pages-cards-content h3,
+.pages-cards-content h4,
+.pages-cards-content ul li {
+    color: #fff;
+}
+
+.pages-card-content-r1 {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    padding: 40px;
+    align-items: center;
+}
+
+.pages-card-content-r2 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 0 30px;
+}
+
+.pages-card-content-r1 h3 {
+    font-size: 30px;
+}
+
+.pages-card-content-r1 h4 {
+    font-size: 25px;
+}
+
+.pages-card-content-r2 h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.pages-card-content-r2 ul li {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.subpage-exp-content {
+    margin-top: 10px;
+    display: none;
+    font-weight: 500;
+    color: #545556;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.btn-darkred-block {
+    margin-top: 10px;
+    color: #000;
+    background-color: #97fb57;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.4s all ease-in-out;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 140px;
+    font-weight: 600;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.btn-darkred-block:hover {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.pages-cards button {
+    margin-bottom: 20px;
+}
+
+.pages-link-btn {
+    color: #000;
+    background-color: #97fb57;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 140px;
+    font-weight: 600;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.4s all ease-in-out;
+    overflow: hidden;
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+.pages-link-btn:hover {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.check-icon {
+    font-size: 16px;
+    color: #000;
+    min-width: 20px;
+}
+
+.uncheck-icon {
+    font-size: 14px;
+    color: red;
+}
+
+.list-icon {
+    background-color: #97fb57;
+    display: inline-flex !important;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    line-height: 25px;
+    margin-right: 15px;
+    min-width: 25px;
+}
+
+/* Pages CSS End */
+
+
 
 
 
