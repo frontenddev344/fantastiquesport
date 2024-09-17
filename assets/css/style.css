@@ -708,6 +708,7 @@ a.butn.blog-btn img {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .links {
@@ -753,7 +754,6 @@ a.butn.blog-btn img {
     color: #fa009f;
 }
 .copyright {
-    padding: 15px 0;
     text-align: center;
     margin: auto 0;
     border-top: 1px solid #fff;
