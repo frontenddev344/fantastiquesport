@@ -893,28 +893,34 @@ a.butn.blog-btn img {
 }
 
 .pages-card-content-r1 {
-    display: flex;
     width: 100%;
-    gap: 50px;
-    padding: 40px;
-    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content:flex-start;
 }
 
 .pages-card-content-r2 {
     display: flex;
     width: 100%;
-    justify-content: flex-start;
-    gap: 50px;
+    justify-content: space-between;
     padding: 0 30px;
 }
-
+.pages-card-content-r21,.pages-card-content-r22{
+    width: 49%;
+}
 .pages-card-content-r1 h3 {
     font-size: 30px;
+    width: 70%;
 }
 
-.pages-card-content-r1 h4 {
-    font-size: 30px;
+.pages-card-content-r1 span {
+margin-left: 20px;
+display: inline-block;
+width: 30%;
 }
+.pages-card-content-r1 span h3 {
+width: 100%;
+    }
 
 .pages-card-content-r2 h3 {
     font-size: 25px;
