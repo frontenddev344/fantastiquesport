@@ -128,8 +128,15 @@
         gap: 20px;
         padding: 0px 20px;
     }
-
-
+    .pages-card-content-r2 ul li {
+        font-size: 15px;
+    }
+    .pages-cards-content-r21,.pages-cards-content-r22 {
+        width: 50%;
+    }
+    .pages-cards-image {
+        height: 330px;
+    }
 }
 
 
@@ -238,10 +245,11 @@
     .pages-card-content-r2 h3 {
         font-size: 20px;
     }
-
-    .pages-card-content-r2 ul li {
-        font-size: 15px;
+    .pages-cards-content-r21,.pages-cards-content-r22 {
+        width: 100%;
     }
+
+   
 
 
 }
