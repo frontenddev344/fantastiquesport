@@ -131,9 +131,7 @@
     .pages-card-content-r2 ul li {
         font-size: 15px;
     }
-    .pages-cards-content-r21,.pages-cards-content-r22 {
-        width: 50%;
-    }
+ 
     .pages-cards-image {
         height: 330px;
     }
@@ -243,9 +241,7 @@
     .pages-card-content-r2 h3 {
         font-size: 23px;
     }
-    .pages-cards-content-r21,.pages-cards-content-r22 {
-        width: 100%;
-    }
+
 
 
    
@@ -393,8 +389,8 @@
         color: #fff;
         font-weight: 600;
     }
-    .pages-card-content-r1 h3,.pages-card-content-r1 span {
-        width: 50%;
+    .pages-cards-content-r21, .pages-cards-content-r22 {
+        width: 100%;
     }
 
   
@@ -500,7 +496,7 @@
     }
     .pages-card-content-r1 h3 {
         font-size: 18px;
-        width: 70%;
+        width: 90%;
     }
     .pages-card-content-r1 span {
         width: 30%;

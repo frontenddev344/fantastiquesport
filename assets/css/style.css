@@ -904,19 +904,19 @@ a.butn.blog-btn img {
     width: 100%;
     justify-content: space-between;
     padding: 0 30px;
+    flex-wrap: wrap;
 }
-.pages-card-content-r21,.pages-card-content-r22{
-    width: 49%;
+
+.pages-cards-content-r21,.pages-cards-content-r22 {
+    width: 48%;
 }
-.pages-card-content-r1 h3 {
+.pages-card-content-r1 h3{
     font-size: 30px;
-    width: 70%;
 }
 
 .pages-card-content-r1 span {
 margin-left: 20px;
 display: inline-block;
-width: 30%;
 }
 .pages-card-content-r1 span h3 {
 width: 100%;
