@@ -233,13 +233,10 @@
     }
 
     .pages-card-content-r1 h3 {
-        font-size: 26px;
+        font-size: 25px;
     }
-
-
-
     .pages-card-content-r2 h3 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
 
@@ -366,9 +363,9 @@
     .pages-cards-image {
         height: 230px;
     }
-
-
-  
+    .pages-card-content-r1 h3 {
+        font-size: 23px;
+    }  
 
     .pages-card-content-r1 {
         padding: 10px;
