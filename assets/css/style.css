@@ -850,7 +850,7 @@ a.butn.blog-btn img {
     overflow: hidden;
 }
 .pages-cards-outer-wrapper:hover{
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     box-shadow: 0px 0px 7px 4px #fea036; 
 }
 
