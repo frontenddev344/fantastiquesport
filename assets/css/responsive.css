@@ -121,6 +121,13 @@
         margin: 0 10px 0 0;
         font-size: 17px;
     }
+    .pages-card-content-r1 {
+        padding: 20px;
+    }
+    .pages-card-content-r2 {
+        gap: 20px;
+        padding: 0px 20px;
+    }
 
 
 }
