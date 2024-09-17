@@ -84,6 +84,10 @@ img {
     padding-bottom: 50px;
 }
 
+.pt-5 {
+    padding-top: 50px;
+}
+
 .pb-4 {
     padding-bottom: 40px;
 }
@@ -748,6 +752,18 @@ a.butn.blog-btn img {
 .links a:hover {
     color: #fa009f;
 }
+.copyright {
+    padding: 15px 0;
+    text-align: center;
+    margin: auto 0;
+    border-top: 1px solid #fff;
+}
+
+.copyright p {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
 
 /* Footer CSS End */
 
@@ -814,20 +830,28 @@ a.butn.blog-btn img {
 .pages-banner-text h1 {
     font-size: 50px;
 }
-
-
-
-
-
-
-
-
+.pages-cards-section{
+    background-image: url("../images/category-cards-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+}
 .pages-cards-outer-wrapper {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0px 0px 7px 4px #fa009f;
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 30px;
     border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
+
+    overflow: hidden;
+}
+.pages-cards-outer-wrapper:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 7px 4px #fea036; 
 }
 
 .pages-cards-outer-wrapper button {
@@ -841,13 +865,14 @@ a.butn.blog-btn img {
 .pages-cards-image {
     height: 400px;
     width: 100%;
-}
+    }
 
 .pages-cards-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     display: block;
+    object-position: center;
 }
 
 .pages-cards-content {
@@ -897,80 +922,34 @@ a.butn.blog-btn img {
 }
 
 .pages-card-content-r2 ul li {
-    font-size: 18px;
     font-weight: 500;
     margin-bottom: 6px;
     display: flex;
     margin-bottom: 15px;
 }
 
-.subpage-exp-content {
-    margin-top: 10px;
-    display: none;
-    font-weight: 500;
-    color: #545556;
-    padding: 0 20px;
+.cards-button {
+    background-color: #330662;
+    padding: 20px;
 }
-
-.text-center {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.btn-darkred-block {
-    margin-top: 10px;
-    color: #000;
-    background-color: #97fb57;
-    border: none;
-    outline: none;
-    padding: 10px 25px;
+.cards-external-link-btn {
+    box-shadow: inset 0px 0px 10px 3px #fea036;
+    color: #fff;
     border-radius: 10px;
-    transition: 0.4s all ease-in-out;
-    font-size: 16px;
+    padding: 13px 40px;
+    display: inline-flex;
+    align-items: center;
     cursor: pointer;
-    min-width: 140px;
-    font-weight: 600;
-    line-height: 20px;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-    border: 1px solid transparent;
+}
+.cards-external-link-btn:hover {
+    box-shadow: inset 0px 0px 10px 3px #fa009f;
 }
 
-.btn-darkred-block:hover {
-    background: #fff;
-    color: #000;
-    border-color: #000;
-}
 
-.pages-cards button {
-    margin-bottom: 20px;
-}
 
-.pages-link-btn {
-    color: #000;
-    background-color: #97fb57;
-    border: none;
-    outline: none;
-    padding: 10px 25px;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    min-width: 140px;
-    font-weight: 600;
-    line-height: 20px;
-    display: inline-block;
-    text-align: center;
-    transition: 0.4s all ease-in-out;
-    overflow: hidden;
-    border: 1px solid transparent;
-    margin: 10px;
-}
+
+
+
 
 .pages-link-btn:hover {
     background: #fff;
@@ -980,17 +959,16 @@ a.butn.blog-btn img {
 
 .check-icon {
     font-size: 16px;
-    color: #000;
     min-width: 20px;
 }
 
 .uncheck-icon {
     font-size: 14px;
-    color: red;
+    min-width: 20px;
 }
 
 .list-icon {
-    background-color: #97fb57;
+    background-color: #fa009f;
     display: inline-flex !important;
     width: 25px;
     height: 25px;
@@ -1000,6 +978,7 @@ a.butn.blog-btn img {
     line-height: 25px;
     margin-right: 15px;
     min-width: 25px;
+    color: #fff;
 }
 
 /* Pages CSS End */
