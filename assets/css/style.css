@@ -855,7 +855,17 @@ a.butn.blog-btn img {
     object-position: center;
 }
 .pages-banner-text h1 {
-    font-size: 50px;
+    font-size: 50px;  
+    animation: slideup 1s ease-in-out forwards;  
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+}
+@keyframes slideup {
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
 }
 .pages-cards-section{
     background-image: url("../images/category-cards-bg.jpg");
