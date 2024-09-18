@@ -810,17 +810,17 @@ a.butn.blog-btn img {
 
 .social-icons i.facebook:hover {
     background-color: #116af9;
-    box-shadow: #fff 0px 4px 8px;
+    box-shadow: #fa009f 0px 4px 8px;
 }
 
 .social-icons i.twitter:hover {
     background-color: #1da1f2;
-    box-shadow: #fff 0px 4px 8px;
+    box-shadow: #fa009f 0px 4px 8px;
 }
 
 .social-icons i.instagram:hover {
     background-color: #da1090;
-    box-shadow: #fff 0px 2px 4px;
+    box-shadow: #fa009f 0px 2px 4px;
 }
 
 /* Social Icons CSS End */
