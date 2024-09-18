@@ -311,7 +311,6 @@ h2.section-heading {
 .home-page-category-cards:hover {
     transform: translateY(5px);
     box-shadow: 0px 0px 10px 6px #fea036;
-
 }
 
 .home-page-category-cards-image {
@@ -327,6 +326,10 @@ h2.section-heading {
     width: 100%;
     object-fit: cover;
     transition: 0.4s all ease-in-out;
+}
+
+.home-page-category-cards:hover  .home-page-category-cards-image img {
+    transform: scale(1.1);
 }
 
 .home-page-category-cards:hover .home-page-cards-image img {
