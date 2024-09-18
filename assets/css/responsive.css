@@ -289,6 +289,10 @@
     .pages-card-content-r1 h3 {
         font-size: 25px;
     }
+     .pages-card-content-r1 span {
+        width: 30%;
+
+    }
 
     .pages-card-content-r2 h3 {
         font-size: 22px;
@@ -301,6 +305,7 @@
     .blog-banner-image {
         height: 330px;
     }
+
 
     .copyright p {
         font-size: 14px;
@@ -468,6 +473,11 @@
     .pages-card-content-r1 h3 {
         font-size: 23px;
     }
+    .pages-card-content-r1 span {
+        font-size: 23px;
+        width: 30%;
+    }
+
 
     .pages-card-content-r1 {
         padding: 10px;
@@ -480,7 +490,7 @@
 
     .pages-card-content-r2 h3 {
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .pages-card-content-r2 ul li {
@@ -650,12 +660,12 @@
     }
 
     .pages-card-content-r1 h3 {
-        font-size: 18px;
-        width: 90%;
+        font-size: 20px;
     }
 
     .pages-card-content-r1 span {
         width: 30%;
+        font-size: 18px;
     }
 
     .blog-banner-text h1 {
