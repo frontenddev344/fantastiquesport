@@ -1040,7 +1040,10 @@ width: 100%;
 
 .privacy-policy-group ,.terms-conditions-group {
     margin-bottom: 30px;
-    padding:0 10px;
+    padding:20px;
+    box-shadow: 0px 0px 7px 4px #fa009f;
+    border-radius: 10px;
+    background-color: #330662;
   }
   .privacy-policy-group:last-child {
     margin-bottom: 0px;
