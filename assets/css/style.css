@@ -946,6 +946,7 @@ a.butn.blog-btn img {
 .cards-button {
     background-color: #330662;
     padding: 20px;
+    text-align: center;
 }
 .cards-external-link-btn {
     box-shadow: inset 0px 0px 10px 3px #fea036;
