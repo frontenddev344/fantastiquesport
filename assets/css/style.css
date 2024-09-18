@@ -1024,7 +1024,7 @@ width: 100%;
 
 /* Other Pages CSS Start */
 .privacy-policy-content-section span.heading-like ,.terms-conditions-content-section span.heading-like{
-    color: #cf2d5e;
+    color: #fa009f;
     font-weight: 700;
     font-size: 17px;
 }
@@ -1049,7 +1049,7 @@ width: 100%;
   .privacy-policy-group h3 ,  .terms-conditions-group h3 {
     font-size: 27px;
     margin-bottom: 10px;
-    color: #cf2d5e;
+    color: #fa009f;
   }
   
   .privacy-policy-group h4 ,  .terms-conditions-group h4 {
@@ -1073,7 +1073,7 @@ width: 100%;
   }
   .privacy-policy-group h3 a ,  .terms-conditions-group h3 a
   {
-    color: #cf2d5e;
+    color: #fa009f;
     transition: 0.3s all ease-in-out;
   }
   .privacy-policy-group h3 a:hover ,  .terms-conditions-group h3 a:hover
