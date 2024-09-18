@@ -547,6 +547,7 @@ input.pages-newsletter-input {
     object-position: center;
     transition: 0.4s all ease-in-out;
     display: block;
+    overflow: hidden;
 }
 
 .blog-cards:hover  .blog-cards-image img{
