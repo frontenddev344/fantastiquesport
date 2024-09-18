@@ -856,10 +856,10 @@ a.butn.blog-btn img {
 }
 .pages-banner-text h1 {
     font-size: 50px;  
-    animation: slideup 1s ease-in-out forwards;  
+    animation: slideup 0.7s ease-in-out forwards;  
     overflow: hidden;
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(30px);
 }
 @keyframes slideup {
 to {
