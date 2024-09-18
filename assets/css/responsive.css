@@ -70,6 +70,9 @@
         font-size: 25px;
         max-width: 700px;
     }
+    .accordion-content p {
+        font-size: 15px;
+    }
 
     .pages-intro-text-wrapper p {
         font-size: 15px;
@@ -419,7 +422,9 @@
     .pages-newsletter-wrapper h3 {
         max-width: 480px;
     }
-
+    .accordion-content p {
+        font-size: 14px;
+    }
 
     .blog-btn {
         font-size: 15px;
