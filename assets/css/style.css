@@ -233,7 +233,7 @@ h2.section-heading {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0 0 0/70%);
+    background-color: rgba(0 0 0/60%);
     background-blend-mode: multiply;
     overflow: hidden;
     text-align: center;
