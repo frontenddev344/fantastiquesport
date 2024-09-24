@@ -245,7 +245,7 @@ h2.section-heading {
     display: block;
     font-weight: 600;
     text-transform: capitalize;
-    animation: slideright 1.5s ease-in-out forwards; 
+    animation: slideright 1.5s ease-in-out forwards;
     transform: translateX(100%);
     overflow: hidden;
     opacity: 0;
@@ -262,22 +262,24 @@ h2.section-heading {
     line-height: 1.5;
     margin-top: 15px;
     transform: translateX(-100%);
-    animation: slideright 1.5s ease-in-out forwards;  
+    animation: slideright 1.5s ease-in-out forwards;
     overflow: hidden;
     opacity: 0;
 }
+
 @keyframes slideleft {
     to {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  @keyframes slideright {
+}
+
+@keyframes slideright {
     to {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
+}
 
 /* Banner Section  CSS End */
 
@@ -302,6 +304,10 @@ h2.section-heading {
     margin-bottom: 10px;
     text-align: center;
     color: #fff;
+}
+.pages-intro-text-wrapper h3 {
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 /* Home Page Intro Text CSS End */
@@ -348,7 +354,7 @@ h2.section-heading {
     transition: 0.4s all ease-in-out;
 }
 
-.home-page-category-cards:hover  .home-page-category-cards-image img {
+.home-page-category-cards:hover .home-page-category-cards-image img {
     transform: scale(1.1);
 }
 
@@ -568,8 +574,8 @@ input.pages-newsletter-input {
     transition: 0.4s all ease-in-out;
 }
 
-.blog-cards:hover  .blog-cards-image img{
-transform: scale(1.05);
+.blog-cards:hover .blog-cards-image img {
+    transform: scale(1.05);
 }
 
 .blog-cards-text {
@@ -780,6 +786,7 @@ a.butn.blog-btn img {
 .links a:hover {
     color: #fa009f;
 }
+
 .copyright {
     text-align: center;
     margin: auto 0;
@@ -854,20 +861,23 @@ a.butn.blog-btn img {
 .pages-banner-image img {
     object-position: center;
 }
+
 .pages-banner-text h1 {
-    font-size: 50px;  
-    animation: slideup 0.7s ease-in-out forwards;  
+    font-size: 50px;
+    animation: slideup 0.7s ease-in-out forwards;
     overflow: hidden;
     opacity: 0;
     transform: translateY(30px);
 }
+
 @keyframes slideup {
-to {
-  opacity: 1;
-  transform: translateY(0);
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-}
-.pages-cards-section{
+
+.pages-cards-section {
     background-image: url("../images/category-cards-bg.jpg");
     background-position: center;
     background-size: cover;
@@ -876,6 +886,7 @@ to {
     width: 100%;
     overflow: hidden;
 }
+
 .pages-cards-outer-wrapper {
     box-shadow: 0px 0px 7px 4px #fa009f;
     overflow: hidden;
@@ -886,9 +897,10 @@ to {
 
     overflow: hidden;
 }
-.pages-cards-outer-wrapper:hover{
+
+.pages-cards-outer-wrapper:hover {
     transform: translateY(-3px);
-    box-shadow: 0px 0px 7px 4px #fea036; 
+    box-shadow: 0px 0px 7px 4px #fea036;
 }
 
 .pages-cards-outer-wrapper button {
@@ -902,7 +914,7 @@ to {
 .pages-cards-image {
     height: 400px;
     width: 100%;
-    }
+}
 
 .pages-cards-image img {
     height: 100%;
@@ -933,7 +945,7 @@ to {
     width: 100%;
     padding: 30px;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 .pages-card-content-r2 {
@@ -944,10 +956,12 @@ to {
     flex-wrap: wrap;
 }
 
-.pages-cards-content-r21,.pages-cards-content-r22 {
+.pages-cards-content-r21,
+.pages-cards-content-r22 {
     width: 48%;
 }
-.pages-card-content-r1 h3{
+
+.pages-card-content-r1 h3 {
     font-size: 30px;
 }
 
@@ -977,6 +991,7 @@ to {
     padding: 20px;
     text-align: center;
 }
+
 .cards-external-link-btn {
     box-shadow: inset 0px 0px 10px 3px #fea036;
     color: #fff;
@@ -986,9 +1001,11 @@ to {
     align-items: center;
     cursor: pointer;
 }
+
 .cards-external-link-btn:hover {
     box-shadow: inset 0px 0px 10px 3px #fa009f;
 }
+
 .pages-link-btn:hover {
     background: #fff;
     color: #000;
@@ -1018,12 +1035,14 @@ to {
     min-width: 25px;
     color: #fff;
 }
-.blog-pages-content-section{
+
+.blog-pages-content-section {
     background-image: url("../images/blog-content-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .blog-pages-group {
     box-shadow: 0px 0px 7px 4px #00a2ff;
     margin-bottom: 35px;
@@ -1036,6 +1055,7 @@ to {
     background-position: center;
 
 }
+
 .blog-pages-group h3 {
     font-size: 25px;
     margin-bottom: 10px;
@@ -1048,99 +1068,269 @@ to {
     background-color: transparent;
     backdrop-filter: blur(5px);
 }
+
 .blog-banner-text h1 {
     font-size: 40px;
 }
+
 .blog-banner-image {
     height: 450px;
 }
+
 .blog-banner-text h1 {
     font-size: 30px;
     max-width: 700px;
     margin: 0 auto;
 }
+
 /* Pages CSS End */
 
 /* Other Pages CSS Start */
-.privacy-policy-content-section span.heading-like ,.terms-conditions-content-section span.heading-like{
+.privacy-policy-content-section span.heading-like,
+.terms-conditions-content-section span.heading-like ,.sub-pages span.heading-like{
     color: #fa009f;
     font-weight: 700;
     font-size: 17px;
 }
-.privacy-policy-content-section ,.terms-conditions-content-section{
+
+.privacy-policy-content-section,
+.terms-conditions-content-section,.sub-pages-content-section {
     background-image: url("../images/other-pages-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #330662;
-    }
+}
 
 
-.privacy-policy-group ,.terms-conditions-group {
+.privacy-policy-group,
+.terms-conditions-group,.sub-pages-group {
     margin-bottom: 35px;
-    padding:20px;
+    padding: 20px;
     box-shadow: 0px 0px 7px 4px #fa009f;
     border-radius: 10px;
     background-color: #330662;
-  }
-  .privacy-policy-group:last-child {
+}
+
+.privacy-policy-group:last-child,.sub-pages-group:last-child {
     margin-bottom: 0px;
-  }
-  
-  .privacy-policy-group h3 ,  .terms-conditions-group h3 {
+}
+
+.privacy-policy-group h3,
+.terms-conditions-group h3,.sub-pages-group h3 {
     font-size: 27px;
     margin-bottom: 10px;
     color: #fa009f;
-  }
-  
-  .privacy-policy-group h4 ,  .terms-conditions-group h4 {
+}
+
+.privacy-policy-group h4,
+.terms-conditions-group h4,.sub-pages-group h4 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #fff;
-  }
-  
-  .privacy-policy-group p ,  .terms-conditions-group p {
+}
+
+.privacy-policy-group p,
+.terms-conditions-group p,.sub-pages-group p {
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 500;
     color: #fff;
-  }
-  
-  .privacy-policy-group ul li ,  .terms-conditions-group ul li {
+}
+
+.privacy-policy-group ul li,
+.terms-conditions-group ul li,.sub-pages-group ul li {
     margin-bottom: 10px;
     list-style-type: disc;
     margin-left: 17px;
     color: #ffff;
-  }
-  .privacy-policy-group h3 a ,  .terms-conditions-group h3 a
-  {
+}
+
+.privacy-policy-group h3 a,
+.terms-conditions-group h3 a,.sub-pages-group h3 a {
     color: #fa009f;
     transition: 0.3s all ease-in-out;
-  }
-  .privacy-policy-group h3 a:hover ,  .terms-conditions-group h3 a:hover
-  {
+}
+
+.privacy-policy-group h3 a:hover,
+.terms-conditions-group h3 a:hover,.sub-pages-group h3 a:hover {
     color: red;
     transform: translateX(2px);
-  }
-  
-  .privacy-policy-group p a  , .terms-conditions-group p a {
+}
+
+.privacy-policy-group p a,
+.terms-conditions-group p a,.sub-pages-group p a {
     color: #cf2d5e;
     font-weight: 600;
     font-size: 17px;
     transition: 0.3s all ease-in-out;
-  }
-  .privacy-policy-group p a:hover ,  .terms-conditions-group p a:hover
-  {
+}
+
+.privacy-policy-group p a:hover,
+.terms-conditions-group p a:hover ,.sub-pages-group p a:hover {
     color: red;
     transform: translateX(2px);
-  }
-  
-  .privacy-policy-group ul ,   .terms-conditions-group h3 ul {
+}
+
+.privacy-policy-group ul,
+.terms-conditions-group h3 ul,.sub-pages-group ul {
     margin: 10px auto;
-  }
-  
-  /* Other CSS End */
+}
+
+/* Other CSS End */
+
+/* Contact Form CSS Start */
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-image {
+    width: 40%;
+    overflow: hidden;
+}
+
+.form-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.form-container {
+    width: 60%;
+    padding: 20px;
+    background-image: url("../images/form-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0 0 0/50%);
+    background-blend-mode: multiply;
+}
+
+.form-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#contact {
+    background-image: url("../images/how-we-compare-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    height: 100%;
+}
+
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select,
+#contact button[type="submit"] {
+    width: 80%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover,
+#contact select:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact select {
+    max-width: 100%;
+    color: #888;
+    outline: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    border: none;
+    box-shadow: inset 0px 0px 10px 3px #fea036;
+    color: #000;
+    margin: 0 0 5px;
+    width: 25%;
+    padding: 15px 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    transition: 0.4s all ease-in-out;
+}
+
+#contact button[type="submit"]:hover {
+    box-shadow: inset 0px 0px 10px 3px #00a2ff;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder,
+::-webkit-select-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+/* Contact Form CSS Start */
+
 
 
 
@@ -1196,7 +1386,5 @@ to {
     border-color: #000;
     color: #cf2d5e;
     background-color: #fff;
-
 }
-
 /* Cookies CSS End */
