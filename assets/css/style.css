@@ -75,6 +75,9 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+.py-3{
+padding: 30px 0;
+}
 
 .py-5 {
     padding: 50px 0;
@@ -754,7 +757,7 @@ a.butn.blog-btn img {
 
 .links a {
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 17px;
     transition: 0.4s all ease-in-out;
     padding-bottom: 7px;
 }
@@ -797,6 +800,9 @@ a.butn.blog-btn img {
     color: #fff;
     text-align: center;
     font-weight: 500;
+}
+.ssl-certificate img {
+    max-width: 149px;
 }
 
 /* Footer CSS End */
