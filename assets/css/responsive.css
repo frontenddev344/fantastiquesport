@@ -308,6 +308,7 @@
     .links a {
         font-size: 17px;
         display: block;
+        padding-bottom: 15px;
     }
 
     .pages-cards-content {
